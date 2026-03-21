@@ -1,0 +1,59 @@
+.login-box {
+    background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 40px;
+    border-radius: 15px;
+    /* color: #fff; */
+    color: black;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+.login-box .form-control {
+    background: transparent;
+    /* color: #fff; */
+    color: black;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+}
+
+.form-control::placeholder {
+    color: #ccc;
+}
+
+.form-check-label,
+.form-text,
+a {
+    color: #ccc;
+    font-size: 0.9rem;
+}
+
+.login-box .btn {
+    width: 100%;
+    background-color: transparent;
+    /* color: #fff; */
+    color:black;
+    border: 1px solid #fff;
+    border-radius: 20px;
+}
+
+.login-box .btn:hover {
+    background-color:azure;
+    color: #3933a4;
+}
+
+.margin-auto{
+    margin: auto;
+}
+
+@media (max-width: 576px) {
+    .login-box {
+        padding: 30px 20px;
+    }
+}

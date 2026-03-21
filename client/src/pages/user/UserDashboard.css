@@ -1,0 +1,33 @@
+.welc h6{
+    color: black;
+}
+
+ .sidebar {
+     min-height: 100vh;
+     background-color: #f8f9fa;
+ }
+
+ .profile-pic {
+     width: 60px;
+     height: 60px;
+     border-radius: 50%;
+     background-color: #ccc;
+     cursor: pointer;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+
+ .card-box {
+     min-height: 200px;
+ }
+
+ @media (max-width: 768px) {
+     .sidebar {
+         flex-direction: row;
+         overflow-x: auto;
+         
+     }
+
+ }
