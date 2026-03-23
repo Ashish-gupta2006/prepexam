@@ -68,11 +68,15 @@ prepexam/
 
 ## 1️⃣ Backend Setup
 
-```cd server```
+```
+cd server
+```
 
 ### Instal dependance 
 
-```npm install```
+```
+npm install
+```
 
 ---
  ## Create ".env" file inside "/server":
