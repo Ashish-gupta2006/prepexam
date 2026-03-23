@@ -36,6 +36,7 @@ Database| MongoDB (Mongoose)
 
 📂 Folder Structure
 
+---
 prepexam/
 │
 ├── frontend/        # React Application
@@ -55,33 +56,39 @@ prepexam/
 # ⚙️ Getting Started
 
 ## 📥 Clone the Repository
+--
 
 git clone https://github.com/your-username/prepexam.git
-
+--
+--
 cd prepexam
+--
 
----
 
 # ▶️ Running the Application
 
 ## 1️⃣ Backend Setup
-
+--
 cd backend
+--
+### Instal dependance 
+--
 npm install
+--
 
 Create ".env" file inside "/backend":
-
+--
 EMAIL_USER = 
 EMAIL_PASS = 
 PORT = 5000
 MONGO_URL =
- 
+ --
 
 
 ## Start backend server:
-
+--
 node index.js
-
+--
 Backend will run on:
 👉 http://localhost:5000
 
@@ -90,18 +97,25 @@ Backend will run on:
 # 2️⃣ Frontend Setup
 
 ## Open a new terminal:
-
+--
 cd frontend
+--
+### Install Dependance 
+--
 npm install
+--
+### Run frontend 
+--
 npm run dev
+--
 
 ## Frontend will run on:
 👉 http://localhost:5173/
 
 # 📸 Demo
-
+--
 https://prepexam.netlify.app/
-
+--
 
 
 
