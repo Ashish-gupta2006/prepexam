@@ -6,7 +6,7 @@ require("dotenv").config();
 const app = express();
 app.use(
   cors({
-    origin: "https://prepexam.netlify.app/",
+    origin: "https://prepexam.netlify.app",
   }),
 );
 app.use(express.json());
